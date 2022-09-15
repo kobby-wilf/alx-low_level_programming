@@ -4,7 +4,7 @@
  *
  * Return: 0 
  */
-void print_alphatbet_x10(voi)
+void print_alphatbet_x10(void)
 {
 	char c, i;
 
@@ -14,6 +14,6 @@ void print_alphatbet_x10(voi)
 		{
 			_putchar(c);
 		}
-		_putchar('\n);
+		_putchar('\n');
 	}
 }
