@@ -1,14 +1,11 @@
 #include "main.h"
 /**
+ * _memset - Fills a memory block with a consant byte
+ * @s: address to memory block 
+ * @b: char to be used
+ * @n: number of bytes to be used
  *
- * _memset - Fills the first n bytes of the memory area
- 	pointed to by @s with the constant byte @c.
- * @s: A pointer to the memory area to be filles.
- * @c: The number of bytes to be filled.
- * description _memset: over there
- *
- * Return: A pointer to the filled memory area @s.
- *
+ * Return: A pointer the memory block.
  */
 
 void *_memset(void *s, int c, size_t n)
