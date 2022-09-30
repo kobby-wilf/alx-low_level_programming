@@ -1,5 +1,5 @@
-#include <main.h>
 #include <stdio.h>
+#include <stdlib>
 /**
  * main - function
  * @argc: length of argv
